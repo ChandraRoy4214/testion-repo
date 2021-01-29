@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(2, 50vh);
+  grid-template-columns: repeat(2, 50vw);
+}
+div {
+  text-transform: capitalize;
+  text-align: center;
+  height: 50vh;
+  width: 50vw;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.urgent {
+  background-color: red;
+}
+.not-urgent {
+  background-color: yellow;
+}
+.important {
+  background-color: aqua;
+}
+.not-important {
+  background-color: whitesmoke;
+}
